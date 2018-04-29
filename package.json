@@ -1,5 +1,5 @@
 {
-  "name": "jsbin-file-to-bin",
+  "name": "file-to-bin",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
