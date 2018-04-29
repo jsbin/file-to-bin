@@ -1,0 +1,17 @@
+{
+  "name": "jsbin-file-to-bin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "devDependencies": {
+    "bin-to-file": "^1.0.7",
+    "jest": "^22.4.3",
+    "jest-diff": "^22.4.3"
+  }
+}

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<!--
+
+> Created using JS Bin - https://jsbin.com
+> Released under the MIT license - https://jsbin.mit-license.org
+> Copyright (c) 2018 anonymous - https://jsbin.com/nifoxeceho/1/edit
+
+-->
+<meta name="robots" content="none">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body ng-app="app">
+
+  <div ng-controller="AppCtrl as ctrl">
+    <select
+      ng-change="ctrl.selectAction()"
+      ng-model="ctrl.myOption"
+      ng-options="value.id as value.label for value in ctrl.myOptions">
+      <option>--</option>
+    </select>
+  </div>
+
+<!--boot js-->
+<script id="jsbin-javascript" defer>
+var app = angular.module("app", []);
+
+app.controller("AppCtrl", function () {
+  this.myOptions = [
+        {
+            "id": 101,
+            "label": "Item 1"
+        },
+        {
+            "id": 102,
+            "label": "Item 2"
+        }
+  ];
+  //this.myOption = this.myOptions[0].id;
+  this.selectAction = function() {
+    console.log(this.myOption);
+};
+
+});
+</script>
+
+
+</body>
+</html>

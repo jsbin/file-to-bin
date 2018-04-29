@@ -1,0 +1,14 @@
+{
+  "id": 14485361,
+  "url": "nifoxeceho",
+  "revision": 1,
+  "active": "y",
+  "javascript":
+    "var app = angular.module(\"app\", []);\r\n\r\napp.controller(\"AppCtrl\", function () {\r\n  this.myOptions = [\r\n        {\r\n            \"id\": 101,\r\n            \"label\": \"Item 1\"\r\n        },\r\n        {\r\n            \"id\": 102,\r\n            \"label\": \"Item 2\"\r\n        }\r\n  ];\r\n  //this.myOption = this.myOptions[0].id;\r\n  this.selectAction = function() {\r\n    console.log(this.myOption);\r\n};\r\n\r\n});",
+  "html":
+    "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js\"></script>\r\n  <meta charset=\"utf-8\">\r\n  <title>JS Bin</title>\r\n</head>\r\n<body ng-app=\"app\">\r\n\r\n  <div ng-controller=\"AppCtrl as ctrl\">\r\n    <select \r\n      ng-change=\"ctrl.selectAction()\"\r\n      ng-model=\"ctrl.myOption\"\r\n      ng-options=\"value.id as value.label for value in ctrl.myOptions\">\r\n      <option>--</option>\r\n    </select>\r\n  </div>\r\n  \r\n</body>\r\n</html>",
+  "css": "",
+  "created": "2015-01-28T14:22:50.000Z",
+  "settings":
+    "{\"processors\":{\"html\":\"html\",\"css\":\"css\",\"javascript\":\"javascript\"}}"
+}

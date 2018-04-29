@@ -1,0 +1,13 @@
+{
+  "id": 15155824,
+  "url": "dihuha",
+  "revision": 695,
+  "active": "y",
+  "javascript": "",
+  "html":
+    "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Shad's HTML</title>\r\n</head>\r\n<body>\r\n  <div>\r\n    <h1> Hello shad </h1>\r\n    <hr />  \r\n    <p>\r\n      <strong> This is a bold tag.</strong> \r\n      This word will be in <i>italic.</i> \r\n      I want this <u>word</u> underline.\r\n      <strike> This sentence is wrong.</strike>\r\n    </p>\r\n    \r\n     <h2>Shad's favorite candy</h2>\r\n      <ul> \r\n        <li> herseys cookies n cream</li>\r\n        <li> twix </li>\r\n        <li> peanut butter</li>\r\n        <li> m&m</li>\r\n    </ul>\r\n    \r\n    <h3> My favorite characters</h3>\r\n    <ol>\r\n      <li> Hulk</li>\r\n      <li> Iron man</li>\r\n      <li> Superman </li>\r\n      <li> Shadman</li>\r\n    </ol>\r\n    \r\n    <img src=\"images/deck2.jpg\" />\r\n    <img src=\"desktop/smith.jpg\" /> \r\n     \r\n    <form>\r\n      <input type=\"email\" placeholder=\"typehere \" />\r\n      <br /> <br />\r\n      <textarea> my name goes here </textarea>\r\n        <br /> <br />  \r\n      <select> \r\n        <option> select an superhero</option>\r\n        <option>Hulk</option>\r\n        <option>Iron man</option>\r\n      </select>\r\n      \r\n      <br /> <br />\r\n      \r\n    </form>\r\n  </div>\r\n</body>\r\n</html>",
+  "css": "",
+  "created": "2015-02-26T01:53:51.000Z",
+  "settings":
+    "{\"processors\":{\"html\":\"html\",\"css\":\"css\",\"javascript\":\"javascript\"},\"title\":\"Shad's HTML\"}"
+}

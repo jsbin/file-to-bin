@@ -1,0 +1,14 @@
+{
+  "id": 15096772,
+  "url": "lifeno",
+  "revision": 2,
+  "active": "y",
+  "javascript": "",
+  "html":
+    "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>JS Bin</title>\r\n</head>\r\n<body>\r\n  <div id=\"pop-up\">\r\n    <div id=\"message\">This page will reload soon.</div> \r\n    <div class=\"option\">Wait 5 minutes</div>\r\n    <ul id=\"option_container\">\r\n      <li class=\"options\">Do not Reload</li>\r\n      <li class=\"options\">Please Reload</li>\r\n    </ul>\r\n  </div>\r\n</body>\r\n</html>",
+  "css":
+    "#pop-up{\r\n  background-color:gray;\r\n  color:black;\r\n  width:400px;\r\n  height:200px;\r\n  text-align:center;\r\n}\r\n\r\n#option_container{\r\n  border:1px solid red;\r\n  text-align:center;\r\n}\r\n\r\n.options{\r\n  list-style:none;\r\n  cursor:pointer;\r\n  border:1px solid red;\r\n  font-size:20px;\r\n  color:black;\r\n  display:inline-block;\r\n}",
+  "created": "2015-02-23T22:54:14.000Z",
+  "settings":
+    "{\"processors\":{\"html\":\"html\",\"css\":\"css\",\"javascript\":\"javascript\"},\"title\":\"JS Bin\"}"
+}
