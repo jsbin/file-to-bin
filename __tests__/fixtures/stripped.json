@@ -1,0 +1,9 @@
+{
+  "settings": { "processors": {} },
+  "url": "???",
+  "source": {},
+  "revision": 1,
+  "javascript": "",
+  "css": "",
+  "html": "<!doctype html>\n<p>Hello world</p>\n"
+}

@@ -68,7 +68,7 @@ const stripComments = s => s.replace(/<!--([\s\S]+)-->/g, '');
   });
 });
 
-test.only('zabihiheha', async () => {
+test('zabihiheha', async () => {
   const fixture = require('./fixtures/zabihiheha.json');
   const html = await read(__dirname + '/fixtures/zabihiheha.html', 'utf8');
   const res = lib(html);
